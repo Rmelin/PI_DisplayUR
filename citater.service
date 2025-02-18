@@ -1,0 +1,17 @@
+[Unit]
+Description=Viser citater og klokken på touchscreen
+After=graphical.target
+
+[Service]
+ExecStartPre=/bin/sleep 10
+ExecStart=/usr/bin/python3 /home/mg/citater.py
+WorkingDirectory=/home/mg
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=mg
+Environment=DISPLAY=:0
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+
+[Install]
+WantedBy=graphical.target
