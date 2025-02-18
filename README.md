@@ -100,7 +100,7 @@ Denne guide hjælper dig med at sikre, at dit script automatisk starter ved opst
 - **Fejlfinding**: Giver tips til, hvordan man kan debugge eventuelle problemer, der opstår, f.eks. hvis systemet ikke starter scriptet korrekt.
 - **Test**: Forklarer, hvordan man kan sikre, at servicen starter korrekt efter en genstart.
 
-Slut Slut
+Slut
 
 
 

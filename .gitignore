@@ -1,0 +1,9 @@
+.DS_Store
+.directory/
+.metadata/
+node_modules/
+*.log
+*.sln
+.suo
+.svn/
+.vscode/
